@@ -1,23 +1,20 @@
 <div align="center">
 
-  <!-- Animated Logo -->
-  <img src="https://raw.githubusercontent.com/Innovation-Lab-ZA/.github/main/assets/logo.png" width="180" alt="Innovation Lab ZA Logo" />
-
   <!-- Animated Typing Header -->
   <a href="https://github.com/Innovation-Lab-ZA">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=900&size=36&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&random=false&width=600&height=70&lines=INNOVATION+LAB+ZA;WHERE+STUDENTS+BUILD+THE+FUTURE;HACKATHONS+%E2%9C%A6+INNOVATE+%E2%9C%A6+SHIP" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=900&size=36&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&random=false&width=600&height=70&lines=INNOVATION+LAB+ZA;WHERE+STUDENTS+BUILD+THE+FUTURE;HACKATHONS+%7C+INNOVATE+%7C+SHIP" alt="Typing SVG" />
   </a>
 
-  <!-- Vibrant Badges -->
+  <!-- Badges -->
   <p>
-    <img src="https://img.shields.io/badge/%F0%9F%92%BB_Hackathons-blue?style=for-the-badge&logo=hackaday&logoColor=white" />
-    <img src="https://img.shields.io/badge/%F0%9F%8F%86_Competitions-gold?style=for-the-badge&logo=githubactions&logoColor=white" />
-    <img src="https://img.shields.io/badge/%F0%9F%9A%80_Innovations-purple?style=for-the-badge&logo=producthunt&logoColor=white" />
-    <img src="https://img.shields.io/badge/%F0%9F%8E%A7_Vibe_Coding-hotpink?style=for-the-badge&logo=spotify&logoColor=white" />
+    <img src="https://img.shields.io/badge/Hackathons-0052CC?style=for-the-badge&logo=hackaday&logoColor=white" />
+    <img src="https://img.shields.io/badge/Competitions-FFB81C?style=for-the-badge&logo=githubactions&logoColor=black" />
+    <img src="https://img.shields.io/badge/Innovations-7B2FBE?style=for-the-badge&logo=producthunt&logoColor=white" />
+    <img src="https://img.shields.io/badge/Vibe_Coding-FF69B4?style=for-the-badge&logo=spotify&logoColor=white" />
     <br/>
-    <img src="https://img.shields.io/badge/%F0%9F%87%BF%F0%9F%87%A6_Made_in_ZA-%23007A4D?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Students_First-%230072C6?style=for-the-badge&logo=academia&logoColor=white" />
-    <img src="https://img.shields.io/badge/Open_Source-%23E03C31?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
+    <img src="https://img.shields.io/badge/Made_in_ZA-007A4D?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Students_First-0072C6?style=for-the-badge&logo=academia&logoColor=white" />
+    <img src="https://img.shields.io/badge/Open_Source-E03C31?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
   </p>
 
   <!-- Dynamic Stats Card -->
@@ -33,8 +30,7 @@
   <!-- Visitor Counter -->
   <img src="https://komarev.com/ghpvc/?username=Innovation-Lab-ZA&style=flat-square&color=22C55E&label=Lab+Visits" alt="Profile Views" />
 
-  <!-- Quote -->
-  <p><i>"Innovation distinguishes between a leader and a follower." — Steve Jobs</i></p>
+  <p><i>"Innovation distinguishes between a leader and a follower." -- Steve Jobs</i></p>
 
 </div>
 
@@ -42,7 +38,7 @@
 
 ## What is Innovation Lab ZA?
 
-Innovation Lab ZA is a student-powered tech collective based in South Africa. We bring together young builders, creators, and dreamers to **learn by building** — through hackathons, coding competitions, open-source projects, and good old **vibe coding sessions**.
+Innovation Lab ZA is a student-powered tech collective based in South Africa. We bring together young builders, creators, and dreamers to **learn by building** -- through hackathons, coding competitions, open-source projects, and good old **vibe coding sessions**.
 
 We believe the best way to level up is to **ship projects that matter**. No gatekeeping. No boring lectures. Just building cool stuff together.
 
@@ -51,11 +47,11 @@ We believe the best way to level up is to **ship projects that matter**. No gate
 | Focus Area | Vibe |
 |---|---|
 | **Hackathons** | Build MVPs in 24-48 hours, compete hard, win big |
-| **Competitions** | ICPC, coding leagues, CTFs — local and international |
+| **Competitions** | ICPC, coding leagues, CTFs -- local and international |
 | **Innovations** | R&D projects that solve real problems in our communities |
-| **Vibe Coding** | Flow state meets good energy — creative, casual, productive |
+| **Vibe Coding** | Flow state meets good energy -- creative, casual, productive |
 | **Open Source** | Contributing to and building projects the world can use |
-| **Workshops** | Peer-led sessions — everything from Git basics to AI/ML |
+| **Workshops** | Peer-led sessions -- everything from Git basics to AI/ML |
 
 </div>
 
@@ -66,10 +62,10 @@ We believe the best way to level up is to **ship projects that matter**. No gate
 <div align="center">
 
 ```text
-  🎧 Lo-fi playing  ──  💡 Idea sparked  ──  ⌨️  Coding in flow  ──  🚀 Ship it!
+  [>] Lo-fi playing --- [*] Idea sparked --- [..] Coding in flow --- [>>] Ship it!
 
-  Monday: Learn   │   Tuesday: Build   │   Wednesday: Vibe Code
-  Thursday: Compete│   Friday: Hackathon│   Weekend: Ship & Chill
+  Monday: Learn       Tuesday: Build        Wednesday: Vibe Code
+  Thursday: Compete   Friday: Hackathon     Weekend: Ship & Chill
 ```
 
 </div>
@@ -79,12 +75,12 @@ We believe the best way to level up is to **ship projects that matter**. No gate
 ## Get Involved
 
 ### For Students
-- Join our **[Discussions](https://github.com/orgs/Innovation-Lab-ZA/discussions)** — introduce yourself
-- Check out **[Projects](https://github.com/orgs/Innovation-Lab-ZA/projects)** — find something to build
-- Come to our next **hackathon** — announced here
+- Join our **[Discussions](https://github.com/orgs/Innovation-Lab-ZA/discussions)** -- introduce yourself
+- Check out **[Projects](https://github.com/orgs/Innovation-Lab-ZA/projects)** -- find something to build
+- Come to our next **hackathon** -- announced here
 - Bring your energy, your laptop, and your playlist
 
-### For Mentors & Industry
+### For Mentors and Industry
 - Sponsor a hackathon or competition team
 - Run a workshop or tech talk
 - Offer internships or project mentorship
@@ -97,13 +93,13 @@ We believe the best way to level up is to **ship projects that matter**. No gate
 <div align="center">
 
 ```text
-┌─────────────────────────────────────────────────────────┐
-│  Python  │  JavaScript  │  TypeScript  │  Rust  │  Go   │
-│─────────────────────────────────────────────────────────│
-│  React   │   Next.js    │   Node.js    │ Flutter│ Swift │
-│─────────────────────────────────────────────────────────│
-│  AI/ML   │    Web3      │    Cloud     │ DevOps │  UX   │
-└─────────────────────────────────────────────────────────┘
++-----------------------------------------------------------+
+|  Python  |  JavaScript  |  TypeScript  |  Rust  |  Go     |
+|-----------------------------------------------------------|
+|  React   |   Next.js    |   Node.js    | Flutter| Swift   |
+|-----------------------------------------------------------|
+|  AI/ML   |    Web3      |    Cloud     | DevOps |  UX     |
++-----------------------------------------------------------+
 ```
 
 </div>
@@ -127,7 +123,5 @@ No stack is off-limits. If it compiles, we ship it.
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Innovation-Lab-ZA/.github/main/assets/innovation-lab-za-logo.svg" width="100" />
-  <br/>
-  <b>Innovation Lab ZA</b> — <i>Built with energy. Shipped with pride.</i>
+  <b>Innovation Lab ZA</b> -- Built with energy. Shipped with pride.
 </p>
