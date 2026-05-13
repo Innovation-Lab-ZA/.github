@@ -1,0 +1,90 @@
+name: Hackathon Project
+description: Submit a project for an Innovation Lab ZA hackathon
+title: "[Hackathon]: "
+labels: ["hackathon"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Ship it! Fill out this form to register your hackathon project.
+
+        Make sure you've read the hackathon rules in the repo's README before submitting.
+  - type: input
+    id: project_name
+    attributes:
+      label: Project Name
+      placeholder: "e.g. MyStudyBudy"
+    validations:
+      required: true
+  - type: input
+    id: team_name
+    attributes:
+      label: Team Name
+      placeholder: "e.g. Code Mavericks"
+    validations:
+      required: true
+  - type: textarea
+    id: team_members
+    attributes:
+      label: Team Members
+      description: List all team members (name, GitHub handle, role)
+      placeholder: |
+        1. Thabo M. - @thabo_dev - Frontend
+        2. Lerato K. - @lera_codes - Backend
+        3. Sipho N. - @sipho_ai - AI/ML
+    validations:
+      required: true
+  - type: dropdown
+    id: hackathon
+    attributes:
+      label: Hackathon Event
+      options:
+        - Internal Hackathon
+        - External Competition
+        - 24-Hour Build Sprint
+        - Weekend Vibe Build
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Project Description
+      description: What does your project do? What problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: tech_stack
+    attributes:
+      label: Tech Stack
+      description: List the technologies, frameworks, and tools you're using
+      placeholder: |
+        - Frontend: React, TailwindCSS
+        - Backend: Node.js, Express
+        - Database: Supabase
+        - AI: OpenAI API
+  - type: textarea
+    id: demo
+    attributes:
+      label: Demo / Links
+      description: "Link to deployed app, video demo, slides, or Figma file"
+      placeholder: |
+        - Live: https://example.vercel.app
+        - Demo video: https://youtube.com/...
+        - Pitch deck: https://docs.google.com/...
+  - type: textarea
+    id: challenges
+    attributes:
+      label: Challenges & Learnings
+      description: What was hard? What did you learn? What would you do differently?
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: All code is original or properly attributed
+          required: true
+        - label: Our project includes a working MVP
+          required: true
+        - label: We've added a README to our project repo
+          required: true

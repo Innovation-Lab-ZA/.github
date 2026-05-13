@@ -1,0 +1,42 @@
+name: Feature Request
+description: Propose a new feature or enhancement
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "### Got an idea? Let's hear it. Drop the details below."
+  - type: input
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: One-line description of what you want
+      placeholder: "e.g. Add a real-time chat feature to the hackathon dashboard"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem This Solves
+      description: What problem does this feature solve? Who benefits?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe how you envision this working. Tech stack ideas welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative approaches you've thought about?
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: I'd like to work on this feature myself
+        - label: This is for an upcoming hackathon/competition

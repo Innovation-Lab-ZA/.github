@@ -1,0 +1,56 @@
+name: Bug Report
+description: File a bug report to help us improve
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "### Thanks for taking the time to report a bug. Fill out this form and we'll look into it ASAP."
+  - type: input
+    id: summary
+    attributes:
+      label: Bug Summary
+      description: A clear, one-line summary of the issue
+      placeholder: "e.g. Leaderboard fails to load on mobile"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Tell us exactly how to trigger the bug
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behaviour
+      description: What actually happened? Include screenshots if possible.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: "OS, browser, device, app version, etc."
+      placeholder: "e.g. Windows 11, Chrome 120, iPhone 15"
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before Submitting
+      options:
+        - label: I've searched existing issues to make sure this isn't a duplicate
+          required: true
+        - label: I'm running the latest version of the project
+          required: true

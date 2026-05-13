@@ -1,0 +1,9 @@
+name: config.yml
+blank_issues_enabled: true
+contact_links:
+  - name: Start a Discussion
+    url: https://github.com/orgs/Innovation-Lab-ZA/discussions
+    about: For questions, ideas, or general conversation — use Discussions instead
+  - name: Innovation Lab ZA Website (coming soon)
+    url: https://github.com/Innovation-Lab-ZA
+    about: Check back for our official site
