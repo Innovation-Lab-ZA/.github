@@ -17,20 +17,7 @@
     <img src="https://img.shields.io/badge/Open_Source-E03C31?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
   </p>
 
-  <!-- Dynamic Stats Card -->
-  <a href="https://github.com/Innovation-Lab-ZA">
-    <img src="https://github-readme-stats.vercel.app/api?username=Innovation-Lab-ZA&show_icons=true&include_all_commits=true&count_private=true&theme=chartreuse-dark&hide_border=true&title_color=22C55E&icon_color=FFB81C&text_color=FFFFFF&bg_color=0D1117&ring_color=FFB81C" height="180" alt="Org Stats" />
-  </a>
 
-  <!-- Activity Graph -->
-  <a href="https://github.com/Innovation-Lab-ZA">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Innovation-Lab-ZA&theme=react-dark&hide_border=true&bg_color=0D1117&color=22C55E&line=22C55E&point=FFB81C&area=true&area_color=22C55E" width="100%" alt="Activity Graph" />
-  </a>
-
-  <!-- Visitor Counter -->
-  <img src="https://komarev.com/ghpvc/?username=Innovation-Lab-ZA&style=flat-square&color=22C55E&label=Lab+Visits" alt="Profile Views" />
-
-  <p><i>"Innovation distinguishes between a leader and a follower." -- Steve Jobs</i></p>
 
 </div>
 
