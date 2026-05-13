@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB81C"/>
+      <stop offset="100%" style="stop-color:#FF8C00"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007A4D"/>
+      <stop offset="100%" style="stop-color:#00C851"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0072C6"/>
+      <stop offset="100%" style="stop-color:#00B4D8"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7B2FBE"/>
+      <stop offset="100%" style="stop-color:#C77DFF"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#FFB81C" flood-opacity="0.5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowGreen">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#00C851" flood-opacity="0.4"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" rx="120" fill="url(#bg)"/>
+
+  <!-- Hexagon background shape -->
+  <g transform="translate(400,320)">
+    <polygon
+      points="0,-220 190,-110 190,110 0,220 -190,110 -190,-110"
+      fill="none"
+      stroke="url(#purple)"
+      stroke-width="2"
+      opacity="0.3"
+      transform="rotate(0)"
+    >
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite" additive="sum"/>
+    </polygon>
+    <polygon
+      points="0,-180 156,-90 156,90 0,180 -156,90 -156,-90"
+      fill="none"
+      stroke="url(#blue)"
+      stroke-width="1.5"
+      opacity="0.2"
+      transform="rotate(15)"
+    >
+      <animateTransform attributeName="transform" type="rotate" from="15" to="375" dur="25s" repeatCount="indefinite" additive="sum"/>
+    </polygon>
+  </g>
+
+  <!-- Circuit traces -->
+  <g transform="translate(400,320)" opacity="0.6">
+    <!-- Horizontal traces -->
+    <line x1="-100" y1="-30" x2="100" y2="-30" stroke="#00C851" stroke-width="2" opacity="0.8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="-80" y1="30" x2="80" y2="30" stroke="#FFB81C" stroke-width="2" opacity="0.8">
+      <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <!-- Vertical traces -->
+    <line x1="-40" y1="-80" x2="-40" y2="80" stroke="#00B4D8" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="40" y1="-60" x2="40" y2="60" stroke="#C77DFF" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <!-- Circuit nodes -->
+    <circle cx="-100" cy="-30" r="5" fill="#00C851" filter="url(#glowGreen)">
+      <animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="-30" r="5" fill="#00C851" filter="url(#glowGreen)">
+      <animate attributeName="r" values="7;4;7" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-80" cy="30" r="5" fill="#FFB81C" filter="url(#glow)">
+      <animate attributeName="r" values="5;8;5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="30" r="5" fill="#FFB81C" filter="url(#glow)">
+      <animate attributeName="r" values="8;5;8" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-40" cy="-80" r="4" fill="#00B4D8" opacity="0.8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-40" cy="80" r="4" fill="#00B4D8" opacity="0.8"/>
+    <circle cx="40" cy="-60" r="4" fill="#C77DFF" opacity="0.8">
+      <animate attributeName="opacity" values="1;0.3;1" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="40" cy="60" r="4" fill="#C77DFF" opacity="0.8"/>
+  </g>
+
+  <!-- Central lightbulb icon -->
+  <g transform="translate(400,300)" filter="url(#glow)">
+    <!-- Bulb glass -->
+    <path d="M-30,10 Q-30,-50 0,-60 Q30,-50 30,10 L40,30 Q40,40 30,40 L-30,40 Q-40,40 -40,30 Z"
+          fill="url(#gold)" opacity="0.9">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <!-- Inner spark -->
+    <path d="M-10,-30 L0,-15 L-5,-15 L5,5 L-5,-10 L5,-10 L-10,-30 Z"
+          fill="#0a0a0a">
+      <animateTransform attributeName="transform" type="scale" values="1;1.15;1" dur="2s" repeatCount="indefinite" additive="sum"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="2s" repeatCount="indefinite" additive="sum"/>
+    </path>
+    <!-- Base cap -->
+    <rect x="-40" y="36" width="80" height="12" rx="3" fill="#FF8C00"/>
+    <!-- Base grooves -->
+    <rect x="-35" y="48" width="70" height="4" rx="2" fill="#FF8C00" opacity="0.7"/>
+    <rect x="-30" y="55" width="60" height="4" rx="2" fill="#FF8C00" opacity="0.5"/>
+  </g>
+
+  <!-- Orbiting dots -->
+  <g transform="translate(400,300)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+      <circle cx="0" cy="-75" r="4" fill="#FFB81C" opacity="0.8">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="120" to="480" dur="10s" repeatCount="indefinite"/>
+      <circle cx="0" cy="-75" r="3.5" fill="#00C851" opacity="0.8">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="240" to="600" dur="12s" repeatCount="indefinite"/>
+      <circle cx="0" cy="-75" r="3" fill="#00B4D8" opacity="0.8">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Text: INNOVATION LAB -->
+  <text x="400" y="520" text-anchor="middle"
+        font-family="'Segoe UI', Arial, Helvetica, sans-serif"
+        font-size="64" font-weight="900" letter-spacing="8"
+        fill="white">
+    INNOVATION LAB
+  </text>
+
+  <!-- Text: ZA highlight -->
+  <text x="400" y="600" text-anchor="middle"
+        font-family="'Segoe UI', Arial, Helvetica, sans-serif"
+        font-size="52" font-weight="900" letter-spacing="6">
+    <tspan fill="#007A4D">Z</tspan>
+    <tspan fill="#FFB81C">A</tspan>
+  </text>
+
+  <!-- Subtle animated underline -->
+  <g transform="translate(400,620)">
+    <line x1="-80" y1="0" x2="80" y2="0" stroke="url(#gold)" stroke-width="3" stroke-linecap="round">
+      <animate attributeName="x1" values="-80;-20;-80" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="80;20;80" dur="3s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Bottom tagline -->
+  <text x="400" y="680" text-anchor="middle"
+        font-family="'Segoe UI', Arial, Helvetica, sans-serif"
+        font-size="20" font-weight="500" letter-spacing="4"
+        fill="#888"
+        opacity="0.8">
+    BUILD . COMPETE . INNOVATE
+  </text>
+
+  <!-- South African flag accent dots (bottom) -->
+  <g transform="translate(400,730)">
+    <circle cx="-60" cy="0" r="6" fill="#E03C31"/>
+    <circle cx="-36" cy="0" r="6" fill="#FFFFFF"/>
+    <circle cx="-12" cy="0" r="6" fill="#007A4D"/>
+    <circle cx="12" cy="0" r="6" fill="#FFB81C"/>
+    <circle cx="36" cy="0" r="6" fill="#0072C6"/>
+    <circle cx="60" cy="0" r="6" fill="#000000"/>
+  </g>
+</svg>
