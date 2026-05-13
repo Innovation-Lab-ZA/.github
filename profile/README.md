@@ -2,7 +2,7 @@
 
   <!-- Animated Typing Header -->
   <a href="https://github.com/Innovation-Lab-ZA">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=900&size=36&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&random=false&width=600&height=70&lines=INNOVATION+LAB+ZA;WHERE+STUDENTS+BUILD+THE+FUTURE;HACKATHONS+%7C+INNOVATE+%7C+SHIP" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=900&size=36&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&random=false&width=1000&height=70&lines=INNOVATION+LAB+ZA;WHERE+STUDENTS+BUILD+THE+FUTURE;HACKATHONS+%7C+INNOVATE+%7C+SHIP" alt="Typing SVG" />
   </a>
 
   <!-- Badges -->
